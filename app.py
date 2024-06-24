@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 from helper import author_encoder, geometry_encoder, get_prediction
 
-model = joblib.load(r'Model\model.joblib')
+model = joblib.load(r'Model/model.joblib')
 
 st.set_page_config(page_title ='Critical Heat Flux Prediction', page_icon = '🔥', layout ='wide')
 st.markdown("<h1 style = 'text-align: center;'>Critical Heat Flux Prediction 🔥</h1>", unsafe_allow_html=True)
